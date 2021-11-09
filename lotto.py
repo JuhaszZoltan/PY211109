@@ -4,18 +4,12 @@ TIPPEK_SZAMA = 5
 SZELVENY_HOSSZA = 90
 SORSOLASOK_SZAMA = 1
 
-
 osszes = []
-
 for szam in range(SZELVENY_HOSSZA):
-
     osszes.append(szam + 1)
 
-
 print('lottósorsolás')
-
 print('írd be a tippjeidet')
-
 print(f'{TIPPEK_SZAMA} számot kell eltalálnod')
 print(f'1 és {SZELVENY_HOSSZA} között kell tippelned')
 print(f'{SORSOLASOK_SZAMA} sorsoláson vesz majd rész a szelvényed')
